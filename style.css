@@ -260,14 +260,20 @@ main {
 .main-tables-container,
 .main-tables-container-2 {
     display: block;
+    scroll-snap-align: center;
     position: relative;
 }
 
-.main-tables-container-2 {
-    display: none;
+.table-container--slider {
+    display: flex;
+    height: auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin: 0 40px;
 }
 
-.main-tables-container .arrow-right-container,
+/* .main-tables-container .arrow-right-container,
 .main-tables-container .arrow-left-container {
     position: absolute;
     top: 155px;
@@ -292,7 +298,7 @@ main {
     height: 16px;
     background: url('./assets/icons/right-arrow.svg') center/cover no-repeat;
     transform: rotate(180deg);
-}
+} */
 
 .main-product-detail {
     position: relative;
@@ -435,13 +441,23 @@ background: url('./assets/imgs/bitcoinbaby.jpg') center/cover no-repeat;
     color: #757575;
 }
 
+.plans-container--slider{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin: 0 10px;
+}
+
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 60%;
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 4px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -499,6 +515,10 @@ background: url('./assets/imgs/bitcoinbaby.jpg') center/cover no-repeat;
     border-radius: 4px;
     background-color: #faf8f7;
     color: var(--warm-black);
+}
+
+.plan-2 {
+    margin-top: 52px
 }
 
 .plan-card--ca span {
