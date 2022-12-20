@@ -89,7 +89,7 @@ header img {
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('./assets/icons/down-arrow.svg');
+    background-image: url('../assets/icons/down-arrow.svg');
 }
 
 main {
@@ -116,7 +116,7 @@ main {
     width: 200px;
     height: 200px;
     margin: 0 auto 50px;
-    background: url('./assets/imgs/bitcoin.svg') center/cover no-repeat;
+    background: url('../assets/imgs/bitcoin.svg') center/cover no-repeat;
 }
 
 .main-exchange-container h2 {
@@ -223,11 +223,11 @@ main {
 }
 
 .currency-table--container .downIcon {
-    background: url('./assets/icons/trending-down.svg') center/cover no-repeat;
+    background: url('../assets/icons/trending-down.svg') center/cover no-repeat;
 }
 
 .currency-table--container .upIcon {
-    background: url('./assets/icons/trending-up.svg') center/cover no-repeat;
+    background: url('../assets/icons/trending-up.svg') center/cover no-repeat;
 }
 
 .currency-table--date {
@@ -315,7 +315,7 @@ main {
     left: calc(50% - 20px);
     width: 40px;
     height: 25px;
-    background: url('./assets/imgs/logo.svg');
+    background: url('../assets/imgs/logo.svg');
     transform: matrix(-1, 0, 0, 1, 0, 0);;
 }
 
@@ -364,19 +364,19 @@ main {
 }
 
 .product-detail--card .clockIcon {
-    background: url('./assets/icons/clock.svg') center/cover no-repeat;
+    background: url('../assets/icons/clock.svg') center/cover no-repeat;
 }
 
 .product-detail--card .eyeIcon {
-    background: url('./assets/icons/eye.svg') center/cover no-repeat;
+    background: url('../assets/icons/eye.svg') center/cover no-repeat;
 }
 
 .product-detail--card .dollarIcon {
-    background: url('./assets/icons/dollar-sign.svg') center/cover no-repeat;
+    background: url('../assets/icons/dollar-sign.svg') center/cover no-repeat;
 }
 
 .product-detail--card .checkCircleIcon {
-    background: url('./assets/icons/check-circle.svg') center/cover no-repeat;
+    background: url('../assets/icons/check-circle.svg') center/cover no-repeat;
 }
 
 .product--card-title {
@@ -398,7 +398,7 @@ main {
 width: 100%;
 min-width: 320px;
 height: 50vh;
-background: url('./assets/imgs/bitcoinbaby.jpg') center/cover no-repeat;
+background: url('../assets/imgs/bitcoinbaby.webp') center/cover no-repeat;
 }
 
 .bitcoin-img-container h2 {
@@ -524,7 +524,7 @@ background: url('./assets/imgs/bitcoinbaby.jpg') center/cover no-repeat;
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url('./assets/icons/oriange-arrow-right.svg');
+    background: url('../assets/icons/oriange-arrow-right.svg');
     vertical-align: text-bottom;
 }
 
