@@ -1,0 +1,16 @@
+.table-container--slider {
+    justify-content: space-evenly;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.main-product-detail {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.plans-container--slider {
+    justify-content: center;
+}
